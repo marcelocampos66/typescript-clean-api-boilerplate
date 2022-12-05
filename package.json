@@ -11,7 +11,8 @@
     "build": "tsc",
     "start": "node ./dist/src/main/server.js",
     "start:dev": "ts-node-dev -r tsconfig-paths/register src/main/server.ts",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
     "@typescript-eslint/parser": "^5.38.1",
     "eslint": "^8.24.0",
     "faker": "^6.6.6",
+    "husky": "^8.0.2",
     "jest": "^27.5.1",
     "nodemon": "^2.0.20",
     "prisma": "^3.14.0",
