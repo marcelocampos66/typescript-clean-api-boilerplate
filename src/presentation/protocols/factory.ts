@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface Factory {
-  getInstance: () => InstanceType<any>;
+  getInstance: (...args: any) => InstanceType<any>;
 }
