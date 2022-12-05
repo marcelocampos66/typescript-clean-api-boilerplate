@@ -1,5 +1,5 @@
 {
-  "name": "backend-clean-boilerplate",
+  "name": "typescript-clean-api-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "./src/main/server.ts",
