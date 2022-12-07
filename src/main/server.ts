@@ -1,10 +1,11 @@
 import 'module-alias/register';
-import "reflect-metadata";
+import 'reflect-metadata';
 import 'dotenv/config';
 import '@/src/main/container';
 import { App } from './config/app';
+import env from '@/src/main/config/env';
 
-const PORT: number = Number(process.env.PORT) || 8080;
+const PORT: number = env.PORT;
 const app: App = new App();
 
 (async () => {
